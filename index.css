@@ -85,6 +85,7 @@ img{
 .icon{
     width: 1rem;
     height: 1rem;
+    margin:0 1rem 0 0;
 }
 
 .right{
@@ -157,4 +158,22 @@ grid-template-columns: 1rem 12rem 7rem 1fr 6rem;
 .left-top-img{
 width: 100%;
 padding: 1rem;
+}
+
+.right-item-element{
+    display: grid;
+    grid-template-columns: 1rem 1fr;
+}
+
+.textarea{
+    width: 100%;
+    height: 4rem;
+    margin: 1.2rem 0 0 0;
+    border-radius: 0.4rem;
+    background-color: #273037;
+    border: 1px solid #00c2ff;  
+}
+
+.rating{
+    margin: 1rem 0 0 0;
 }
