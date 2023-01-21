@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="index.js"></script>
 </head>
 <body>
     <div class="container">
@@ -18,12 +20,25 @@
             <div class="header-item">4:00pm-5:00pm</div>
             <div class="header-item">20 Nov 2021(Today)</div>
             <div class="header-item"></div>
-            <div class="header-item right-header-item"><div>REPORT</div>
-                <div class="down-arrow-icon"><img src="./images/Vector.png" alt="icon"></div>
+            <div class="header-item right-header-item">
+                <div class="dropdown">
+                    <button class="dropbtn">REPORT <img style="width: 0.7rem;height: 0.6rem;margin: 0 0 0 0.5rem;overflow: visible;" src="./images/Vector.png" alt="icon"></button>
+                    <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                    </div>
+                  </div>
             </div>
-            <div class="header-item right-header-item">MARK INTERVIEW
-                
-                <div class="down-arrow-icon"><img src="./images/Vector.png" alt="icon"></div>
+            <div class="header-item right-header-item">
+                <div class="dropdown">
+                    <button class="dropbtn">MARK INTERVIEW <img style="width: 0.7rem;height: 0.6rem;margin: 0 0 0 0.5rem;overflow: visible;" src="./images/Vector.png" alt="icon"></button>
+                <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                </div>
+              </div>
             </div>
             <div class="header-item right-header-item" style="color:white;background-image: linear-gradient(to right,#d83b3b , #b51414);margin: 0 0 0 1rem;">
                 <div class="down-arrow-icon"><img src="./images/Finish.png" alt="icon"></div>
@@ -95,13 +110,14 @@
                                 <span></span>
                                 <div style="color: white; padding: 1.2rem 1.2rem;">Ask the candidate to explain his/her career so far. Validate  current job responsibilites and role. 
                                 <div style="color: #00c2ff;margin: 1rem 0 1rem 0;">Show answer key</div>
-                                <input type="textarea" class="textarea" placeholder="Your Comments"/>
+                                <textarea class="textarea" name="" id="" rows="5">Your Comments</textarea>
                                 <div class="rating">
-                                    <span style="margin-right:1rem;">Rating</span> <img src="./images/star.png" class="icon" alt="">
-                                    <img src="./images/star.png" class="icon" alt="">
-                                    <img src="./images/star.png" class="icon" alt="">
-                                    <img src="./images/star.png" class="icon" alt="">
-                                    <img src="./images/star.png" class="icon" alt="">
+                                    <span style="margin-right:1rem;">Rating</span>
+                                    <a class="icon star" style="font-size: 200%; color:#00c2ff;">&star;</a>
+                                    <a class="icon star" style="font-size: 200%; color:#00c2ff;">&star;</a>
+                                    <a class="icon star" style="font-size: 200%; color:#00c2ff;">&star;</a>
+                                    <a class="icon star" style="font-size: 200%; color:#00c2ff;">&star;</a>
+                                    <a class="icon star" style="font-size: 200%; color:#00c2ff;">&star;</a>
                                 </div>
                                 </div>
                             </div>
@@ -118,12 +134,9 @@
                                 </div>
                                 <div class="right-item-heading-style">
                                 </div>
-                                <div class="right-item-heading-style" style="
-                                justify-content: center;
-                                align-items: center;">
+                                <div class="right-item-heading-style" style="justify-content: center;align-items: center;">
                                     
-                                    <img class="icon" src="./images/clock.png" alt="" style="
-                                    margin: 0 0.7rem 0 0;
+                                    <img class="icon" src="./images/clock.png" alt="" style="margin: 0 0.7rem 0 0;
                                 "><span style="color: #dadcdf" >2 mins</span></div>
                             </div>
                             <div class="right-item-element">
