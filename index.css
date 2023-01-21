@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
 }
 
 img{
@@ -46,6 +45,7 @@ img{
 .main-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    font-family: 'Open Sans', sans-serif;
 }
 .left{
     display: grid;
