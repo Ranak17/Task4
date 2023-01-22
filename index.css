@@ -50,7 +50,7 @@ img{
 .main-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
 }
 .left{
     display: grid;
@@ -252,7 +252,7 @@ padding: 1rem;
         grid-template-rows: repeat(6,1fr);
         row-gap: 0.8rem;    
     }
-
+    
     #ibi3{
         grid-row: 5/6;;
     }
