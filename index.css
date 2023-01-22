@@ -5,7 +5,7 @@
 }
 
 body{
-    width: 1349px;
+    /* width: 1349px; */
     /* height: 100vh; */
 }
 img{
@@ -50,7 +50,7 @@ img{
 .main-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 .left{
     display: grid;
@@ -243,4 +243,17 @@ padding: 1rem;
   .star{
     color: #00c2ff;
     cursor: pointer;
+  }
+
+  @media (max-width:948px){
+    .left-bottom{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
+        row-gap: 0.8rem;    
+    }
+
+    #ibi3{
+        grid-row: 5/6;;
+    }
   }
